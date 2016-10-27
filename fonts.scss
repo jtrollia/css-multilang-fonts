@@ -1,50 +1,65 @@
 // Helvetica
 @font-face{
-  font-family:"HelveticaNeueW01-47LtCn_692686";
-  src:url("./fonts/7de6b03f-1298-4bc2-89af-9d9da594008d.eot?#iefix");
-  src:url("./fonts/7de6b03f-1298-4bc2-89af-9d9da594008d.eot?#iefix") format("eot"),url("./fonts/b37ddbd9-24db-4864-9095-5084a5679dd2.woff2") format("woff2"),url("./fonts/42aacb2f-222e-46f5-a95a-1c22948ee0d1.woff") format("woff"),url("./fonts/217a2f81-1e65-4924-a0d4-05ac8576f883.ttf") format("truetype"),url("./fonts/5405647d-099e-47f7-9d4a-f8692e57a206.svg#5405647d-099e-47f7-9d4a-f8692e57a206") format("svg");
+  font-family:"Helvetica_400";
+  src:url("./fonts/hvtc400.eot?#iefix");
+  src:url("./fonts/hvtc400.eot?#iefix") format("eot"),
+      url("./fonts/hvtc400.woff2") format("woff2"),
+      url("./fonts/hvtc400.woff") format("woff"),
+      url("./fonts/hvtc400.ttf") format("truetype"),
+      url("./fonts/hvtc400.svg") format("svg");
 }
 @font-face{
-  font-family:"HelveticaNeueW01-67MdCn_692710";
-  src:url("./fonts/3a605871-b94d-4161-a394-bb2cfc975df7.eot?#iefix");
-  src:url("./fonts/3a605871-b94d-4161-a394-bb2cfc975df7.eot?#iefix") format("eot"),url("./fonts/423db818-6ba7-4789-995f-1f2d7f6018df.woff2") format("woff2"),url("./fonts/aef05e22-e1d4-4e59-bc2e-a71c13c26cca.woff") format("woff"),url("./fonts/b785b1cf-24fa-44c9-8c93-d8e2d6912c47.ttf") format("truetype"),url("./fonts/5ab0c585-fb4b-43d9-abb0-b92f452b1284.svg#5ab0c585-fb4b-43d9-abb0-b92f452b1284") format("svg");
+  font-family:"Helvetica_700";
+  src:url("./fonts/hvtc700.eot?#iefix");
+  src:url("./fonts/hvtc700.eot?#iefix") format("eot"),
+      url("./fonts/hvtc700.woff2") format("woff2"),
+      url("./fonts/hvtc700.woff") format("woff"),
+      url("./fonts/hvtc700.ttf") format("truetype"),
+      url("./fonts/hvtc700.svg") format("svg");
 }
 @font-face{
-  font-family:"HelveticaNeueW01-77BdCn_692722";
-  src:url("./fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot?#iefix");
-  src:url("./fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot?#iefix") format("eot"),url("./fonts/ab23c239-fb66-406e-bce6-f0f260f5a217.woff2") format("woff2"),url("./fonts/102ab74c-0e84-4fe5-a17a-b20fb643591a.woff") format("woff"),url("./fonts/1d146b29-55e2-485b-96aa-5cb628e7e9eb.ttf") format("truetype"),url("./fonts/d90b3358-e1e2-4abb-ba96-356983a54c22.svg#d90b3358-e1e2-4abb-ba96-356983a54c22") format("svg");
+  font-family:"Helvetica_900";
+  src:url("./fonts/hvtc900.eot?#iefix");
+  src:url("./fonts/hvtc900.eot?#iefix") format("eot"),
+      url("./fonts/hvtc900.woff2") format("woff2"),
+      url("./fonts/hvtc900.woff") format("woff"),
+      url("./fonts/hvtc900.ttf") format("truetype"),
+      url("./fonts/hvtc900.svg") format("svg");
 }
 
 // Museo
 @font-face{
-  font-family:"Museo Sans W01_700";
-  src:url("./fonts/3d0a39cf-115c-4800-9b1e-31c7912abfc2.eot?#iefix");
-  src:url("./fonts/3d0a39cf-115c-4800-9b1e-31c7912abfc2.eot?#iefix") format("eot"),url("./fonts/e2d37f34-6bca-473c-b64d-93811f4dc046.woff2") format("woff2"),url("./fonts/eadbb595-a394-48fc-834f-8bf5da15cddf.woff") format("woff"),url("./fonts/9bcba093-b507-4b9b-9c83-303003d3815c.ttf") format("truetype"),url("./fonts/9a2af429-2624-4bd1-a676-8f0eed3e7e31.svg#9a2af429-2624-4bd1-a676-8f0eed3e7e31") format("svg");
+  font-family:"Museo_900";
+  src:url("./fonts/museo900.eot?#iefix");
+  src:url("./fonts/museo900.eot?#iefix") format("eot"),
+      url("./fonts/museo900.woff2") format("woff2"),
+      url("./fonts/museo900.woff") format("woff"),
+      url("./fonts/museo900.ttf") format("truetype"),
+      url("./fonts/museo900.svg") format("svg");
 }
 
+// Chinese set
+$font-zh-small: "Helvetica_400", "Microsoft YaHei", "SimHei", "Helvetica", "Arial", sans-serif;
+$font-zh-medium: "Helvetica_700", "Microsoft YaHei", "SimHei", "Helvetica", "Arial", sans-serif;
+$font-zh-bold: "Helvetica_900", "Microsoft YaHei", "SimHei", "Helvetica", "Arial", sans-serif;
+$font-zh-title: "Museo_900", "Microsoft YaHei", "SimHei", "Helvetica", "Arial", sans-serif;
 
-// Chinese
-$font-zh-small: "HelveticaNeueW01-47LtCn_692686", "Microsoft YaHei", "SimHei", "Helvetica", "Arial", sans-serif;
-$font-zh-medium: "HelveticaNeueW01-67MdCn_692710", "Microsoft YaHei", "SimHei", "Helvetica", "Arial", sans-serif;
-$font-zh-bold: "HelveticaNeueW01-77BdCn_692722", "Microsoft YaHei", "SimHei", "Helvetica", "Arial", sans-serif;
-$font-zh-title: "Museo Sans W01_700", "Microsoft YaHei", "SimHei", "Helvetica", "Arial", sans-serif;
+// Japanese set
+$font-ja-small: "Helvetica_400", "Meiryo UI", "Meiryo", "MS UI Gothic", "MS PGothic", "Helvetica", "Arial", sans-serif;
+$font-ja-medium: "Helvetica_700", "Meiryo UI", "Meiryo", "MS UI Gothic", "MS PGothic", "Helvetica", "Arial", sans-serif;
+$font-ja-bold: "Helvetica_900", "Meiryo UI", "Meiryo", "MS UI Gothic", "MS PGothic", "Helvetica", "Arial", sans-serif;
+$font-ja-title: "Museo_900", "Meiryo UI", "Meiryo", "MS UI Gothic", "MS PGothic", "Helvetica", "Arial", sans-serif;
 
-// Japanese
-$font-ja-small: "HelveticaNeueW01-47LtCn_692686", "Meiryo UI", "Meiryo", "MS UI Gothic", "MS PGothic", "Helvetica", "Arial", sans-serif;
-$font-ja-medium: "HelveticaNeueW01-67MdCn_692710", "Meiryo UI", "Meiryo", "MS UI Gothic", "MS PGothic", "Helvetica", "Arial", sans-serif;
-$font-ja-bold: "HelveticaNeueW01-77BdCn_692722", "Meiryo UI", "Meiryo", "MS UI Gothic", "MS PGothic", "Helvetica", "Arial", sans-serif;
-$font-ja-title: "Museo Sans W01_700", "Meiryo UI", "Meiryo", "MS UI Gothic", "MS PGothic", "Helvetica", "Arial", sans-serif;
-
-// Korean
-$font-ko-small: "HelveticaNeueW01-47LtCn_692686", "Nanum Barun Gothic", "Nanum Gothic", "NanumGothic", "나눔고딕", "Malgun Gothic", "돋움", "Dotum", "Helve";
-$font-ko-medium: "HelveticaNeueW01-67MdCn_692710", "Nanum Barun Gothic", "Nanum Gothic", "NanumGothic", "나눔고딕", "Malgun Gothic", "돋움", "Dotum", "Helve";
-$font-ko-bold: "HelveticaNeueW01-77BdCn_692722", "Nanum Barun Gothic", "Nanum Gothic", "NanumGothic", "나눔고딕", "Malgun Gothic", "돋움", "Dotum", "Helve";
-$font-ko-title: "Museo Sans W01_700", "Nanum Barun Gothic", "Nanum Gothic", "NanumGothic", "나눔고딕", "Malgun Gothic", "돋움", "Dotum", "Helve";
+// Korean set
+$font-ko-small: "Helvetica_400", "Nanum Barun Gothic", "Nanum Gothic", "NanumGothic", "나눔고딕", "Malgun Gothic", "돋움", "Dotum", "Helve";
+$font-ko-medium: "Helvetica_700", "Nanum Barun Gothic", "Nanum Gothic", "NanumGothic", "나눔고딕", "Malgun Gothic", "돋움", "Dotum", "Helve";
+$font-ko-bold: "Helvetica_900", "Nanum Barun Gothic", "Nanum Gothic", "NanumGothic", "나눔고딕", "Malgun Gothic", "돋움", "Dotum", "Helve";
+$font-ko-title: "Museo_900", "Nanum Barun Gothic", "Nanum Gothic", "NanumGothic", "나눔고딕", "Malgun Gothic", "돋움", "Dotum", "Helve";
 
 
 // Body small
 @mixin small-fonts {
-  font-family: "HelveticaNeueW01-47LtCn_692686";
+  font-family: "Helvetica_400";
   &:lang(ja) {
     font-family: $font-ja-small;
   }
@@ -58,7 +73,7 @@ $font-ko-title: "Museo Sans W01_700", "Nanum Barun Gothic", "Nanum Gothic", "Nan
 
 // Body normal
 @mixin medium-fonts {
-  font-family: "HelveticaNeueW01-67MdCn_692710";
+  font-family: "Helvetica_700";
   &:lang(ja) {
     font-family: $font-ja-medium;
   }
@@ -72,7 +87,7 @@ $font-ko-title: "Museo Sans W01_700", "Nanum Barun Gothic", "Nanum Gothic", "Nan
 
 // Body bold
 @mixin bold-fonts {
-  font-family: "HelveticaNeueW01-77BdCn_692722";
+  font-family: "Helvetica_900";
   &:lang(ja) {
     font-family: $font-ja-bold;
   }
@@ -86,7 +101,7 @@ $font-ko-title: "Museo Sans W01_700", "Nanum Barun Gothic", "Nanum Gothic", "Nan
 
 // Titles
 @mixin title-fonts {
-  font-family: "Museo Sans W01_700";
+  font-family: "Museo_900";
   &:lang(ja) {
     font-family: $font-ja-title;
   }
