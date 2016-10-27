@@ -3,7 +3,7 @@ A simple setup making use of SASS mixins to easily adapt the font to the languag
 
 ## Usage
 
-```
+```css
 p {
   @include medium-fonts;
   color: #ff0000;
